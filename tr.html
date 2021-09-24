@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tribute to Doctors</title>
+
+    <!--Bootstrap cDN-->
+    <link rel="stylesheet" href="./assets/bootstrap.min.css" />
+
+    <!--CSS link-->
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+
+    <!--Font Awesome-->
+    <script
+      src="https://kit.fontawesome.com/179bd1eb00.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <!--------NAvigation bar------->
+
+     
+  <nav class="navbar navbar-dark">
+    <h3 class="navbar-brand ml-5">TRIBUTE TO DOCTORS</h3>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+       
+    <div class=" p-4 navbar-nav me-auto mb-2 mb-lg-0">
+      <ul>
+          <li class="active"><a href="#carouselExampleCaptions">Home</a></li>
+          <li class="nav-item">
+            <a href="#aboutCovid19" class="feat-btn nav-link"
+              >About Covid
+              <span class="fas fa-caret-down first"></span>
+            </a>
+            <ul class="nav-item">
+              <li class="nav-item pl-5"><a class="nav-link" href="#testing">Testing</a></li>
+              <li class="nav-item pl-5"><a class="nav-link" href="#symptoms">Symptoms</a></li>
+              <li class="nav-item pl-5"><a class="nav-link" href="#measures">Measures</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a href="#aboutSecWave" class="serv-btn nav-link"
+              >About Second wave
+              <span class="fas fa-caret-down second"></span>
+            </a>
+            <ul class="serv-show">
+              <li class="nav-item pl-5"><a class="nav-link" href="#reason">Reasons</a></li>
+              <li class="nav-item pl-5"><a class="nav-link" href="#consern">Consern</a></li>
+              <li class="nav-item pl-5"><a class="nav-link" href="#symp">Symptoms</a></li>
+              <li class="nav-item pl-5"><a class="nav-link" href="#measures2">Measures</a></li>
+            </ul>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="tribute.html" target="_blank">Tribute to Doctors</a></li>
+        </ul>
+    </div>
+  </div>
+  </nav>
+
+      <!--------End NAvigation bar------->
+    </header>
+
+    <main>
+      <!---------Slider------------->
+      <div
+        id="carouselExampleCaptions"
+        class="carousel slide"
+        data-ride="carousel"
+      >
+        <ol class="carousel-indicators">
+          <li
+            data-target="#carouselExampleCaptions"
+            data-slide-to="0"
+            class="active"
+          ></li>
+          <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+          <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              
+              src="./assets/slidesDoctors.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5 style="color: black">
+                No matter how much falls on us, we keep plowing ahead.
+              </h5>
+              <h5 style="color: black">
+                That's the only way to keep the roads clear.
+              </h5>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./assets/slides2.jpeg"
+              class="d-block w-100"
+              alt="..."
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5 style="color: black">
+                <span>Connect</span> with friends and family using technology
+              </h5>
+
+              <h5 style="color: black">
+                <span>Disconnect </span>from fake news and excessive
+                information.
+              </h5>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./assets/slides3.jfif"
+              class="d-block w-100"
+              alt="..."
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Be <span>Compassionate </span>and think of others</h5>
+
+              <h5><span>STOP, </span>take a deep breath and be positive.</h5>
+            </div>
+          </div>
+        </div>
+        <a
+          class="carousel-control-prev"
+          href="#carouselExampleCaptions"
+          role="button"
+          data-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a
+          class="carousel-control-next"
+          href="#carouselExampleCaptions"
+          role="button"
+          data-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+      <!---------End Slider------------->
+
+      <!---------Store----------->
+
+      <div class="container infos d-flex justify-content-around my-5">
+        <div style="background-color: #ffc1e3" class="info">
+          <h4>Total Vaccination Dose Status</h4>
+          <p>4,619,976,274</p>
+        </div>
+        <div style="background-color: #b2fff7" class="info">
+          <h4>Total Testing Status upto Aug 23 2021,</h4>
+          <p>About 600 million</p>
+        </div>
+        <div style="background-color: #ef9a9a" class="info">
+          <h4>Global cases</h4>
+          <p>211,730,035</p>
+          <p><h4>Death:</h4> 4,430,697</p>
+        </div>
+      </div>
+      <!---------End Store----------->
+
+      <!-----------About covid-19-------------->
+
+      <article class="p-2 container" id="aboutCovid19">
+        <h3 class="text-center mb-5">About Covid-19</h3>
+
+        <p>
+            Coronavirus disease 2019 (COVID-19) is a contagious disease caused by severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2). The first known case was identified in Wuhan, China, in December 2019.The disease has since spread worldwide, leading to an ongoing pandemic.
+        </p>
+        <p>&emsp;&ensp;&emsp;&ensp;The history of coronaviruses is a reflection of the discovery of the diseases caused by coronaviruses and identification of the viruses. It starts with the first report of a new type of upper-respiratory tract disease among chickens in North Dakota, U.S., in 1931. The causative agent was identified as a virus in 1933. By 1936, the disease and the virus were recognised as unique from other viral disease. They became known as infectious bronchitis virus (IBV), but later officially renamed as Avian coronavirus.
+
+A new brain disease of mice (murine encephalomyelitis) was discovered in 1947 at Harvard Medical School in Boston. The virus causing the disease was called JHM (after Harvard pathologist John Howard Mueller). Three years later a new mouse hepatitis was reported from the National Institute for Medical Research in London. The causative virus was identified as mouse hepatitis virus (MHV).
+
+In 1961, a virus was obtained from a school boy in Epsom, England, who was suffering from common cold. The sample designated B814 was confirmed as novel virus in 1965. New common cold viruses (assigned 229E) collected from medical students at the University of Chicago were also reported in 1966. Structural analyses of IBV, MHV, B18 and 229E using transmission electron microscopy revealed that they all belong to the same group of viruses. Making a crucial comparison in 1967, June Almeida and David Tyrrell invented the collective name coronavirus, as all those viruses were characterised by solar corona-like projections (called spikes) on their surfaces.
+
+Other coronaviruses have been discovered from pigs, dogs, cats, rodents, cows, horses, camels, Beluga whales, birds and bats. As of 2020, 39 species are described. Bats are found to be the richest source of different species of coronaviruses. All coronaviruses originated from a common ancestor about 293 million years ago. Zoonotic species such as Severe acute respiratory syndrome-related coronavirus (SARS-CoV), Middle East respiratory syndrome-related coronavirus (MERS-CoV) and Severe acute respiratory syndrome-related coronavirus 2 (SARS-CoV-2), the aetiological agent of the COVID-19 pandemic.</p>
+        
+        <h4 id="testing" class="mb-4 mt-4">Testing</h4>
+        <p>&emsp;&ensp;&emsp;&ensp;Several testing methods have been developed to diagnose the disease. The standard diagnostic method is by detection of the virus' nucleic acid by real-time reverse transcription polymerase chain reaction (rRT-PCR), transcription-mediated amplification (TMA), or by reverse transcription loop-mediated isothermal amplification (RT-LAMP) from a nasopharyngeal swab.</p>
+
+        <h4 id="symptoms" class="mb-4 mt-4">Symptoms</h4>
+        <p>Symptoms may begin one to fourteen days after exposure to the virus. At least a third of people who are infected do not develop noticeable symptoms Of those people who develop symptoms noticeable enough to be classed as patients, most (81%) develop mild to moderate symptoms (up to mild pneumonia), while 14% develop severe symptoms (dyspnea, hypoxia, or more than 50% lung involvement on imaging), and 5% suffer critical symptoms (respiratory failure, shock, or multiorgan dysfunction). Older people are at a higher risk of developing severe symptoms. Some people continue to experience a range of effects (long COVID) for months after recovery, and damage to organs has been observed.[16] Multi-year studies are underway to further investigate the long-term effects of the disease.
+           Signs and symptoms of coronavirus disease 2019 (COVID-19) may appear two to 14 days after exposure. This time after exposure and before having symptoms is called the incubation period. Common signs and symptoms can include:
+            <li class="mt-2"> 
+            Fever
+            Cough
+            Tiredness
+            Early symptoms of COVID-19 may include a loss of taste or smell.
+            
+            Other symptoms can include:
+            
+            Shortness of breath or difficulty breathing
+            Muscle aches
+            Chills
+            Sore throat
+            Runny nose
+            Headache
+            Chest pain
+            Pink eye (conjunctivitis)
+            Nausea
+            Vomiting
+            Diarrhea
+            Rash
+            This list is not all inclusive. Children have similar symptoms to adults and generally have mild illness.
+            
+            The severity of COVID-19 symptoms can range from very mild to severe. Some people may have only a few symptoms, and some people may have no 
+            symptoms at all. Some people may experience worsened symptoms, such as worsened shortness of breath and pneumonia, about a week after symptoms start.
+            
+            People who are older have a higher risk of serious illness from COVID-19, and the risk increases with age. People who have existing medical 
+            conditions also may have a higher risk of serious illness. Certain medical conditions that may increase the risk of serious illness 
+            from COVID-19 include:
+            
+            
+            <ul type="circle">
+            <li>Serious heart diseases, such as heart failure, coronary artery disease or cardiomyopathy</li>
+            <li>Cancer</li>
+            <li>Chronic obstructive pulmonary disease (COPD)</li>
+            <li>Type 1 or type 2 diabetes</li>
+            <li>Overweight, obesity or severe obesity</li>
+            <li>High blood pressure</li>
+            <li>Smoking</li>
+            <li>Chronic kidney disease</li>
+            <li>Sickle cell disease or thalassemia</li>
+            <li>Weakened immune system from solid organ transplants.</li>
+            <li>Pregnancy.</li>
+            <li>Asthma.</li>
+            <li>Chronic lung diseases such as cystic fibrosis or pulmonary fibrosis.</li>
+            <li>Liver disease.</li>
+            <li>Dementia.</li>
+            <li>Down syndrome.</li>
+            <li>Weakened immune system from bone marrow transplant, HIV or some medications.</li>
+            <li>Brain and nervous system conditions.</li>
+            <li>Substance use disorders</li>
+            </ul>
+            This list is not all inclusive. Other underlying medical conditions may increase your risk of serious illness from COVID-19.
+           
+            </ul>
+          </p>
+          </li>
+      </article>
+
+      <!------------End About covid-19--------------->
+
+      <div class="paralex"></div>
+
+      <!----------------About 2nd wave-------------->
+
+      <article class="p-2 container mt-5" id="aboutSecWave">
+          <h3 class="text-center mb-5">About Second Wave</h3>
+          <p>&emsp;&ensp;&emsp;&ensp;India recorded the first few cases of COVID-19 in March 2020 and then on until September of 2020, COVID cases continued increasing. After September, fewer cases began to be reported and the first wave of COVID officially began to decline. By the beginning of 2021, only a handful of cases were reported in PAN India and normalcy was almost restored. 
+
+However, from February onwards the cases began to rise exponentially and in 1 month (February to March) we recorded as many cases as in 6 months of 2020. This is the second wave because it is the second time that COVID cases are on the rise.
+
+ What exactly caused the second wave is unknown. However, this second wave could have been triggered by a few new strains of the coronavirus including the UK virus, South Africa virus and the double mutant. These mutants of coronavirus are very infectious and have a high R-value (the number of people who can be infected from one person). </p>
+
+        <h4 id="reason" class="mb-4 mt-4">2 other reasons why the second wave has spread like wildfire are –</h4>
+        <ul class="ml-5">
+          <li class="mb-2">People’s apathy towards COVID-19 precautions like not wearing masks, not washing hands, not using sanitisers. (pandemic fatigue)</li>
+          <li class="mb-2">Large-scale congregations especially during the election season and for certain ceremonies. </li>
+        </ul>
+
+        <h4 id="consern" class="mb-4 mt-4">Why is the second wave so concerning?</h4>
+        
+        <p>The second coronavirus wave is of concern because this new mutant SARS-COV is very contagious and has learned to dodge our antibodies. Even the 18-45 age group, who supposedly has strong immunity, is susceptible. This group has been called the COVID-19 super-spreader. They are the ones who have to be out in public the most. And once they come home with the infection, they rapidly spread it to others in the house/apartment building/housing society. This new COVID-19 strain is also infecting children. </p>
+        
+        <h4 id="symp" class="mb-4 mt-4">Symptoms</h4>
+
+        <p>
+          Even though the new strains of COVID are accompanied with new symptoms which does not mean that the old symptoms are no longer seen. COVID positive people may still have a fever, body ache, loss of smell/ taste, soreness or dryness in the throat, runny nose and cough. However this time, solitary symptoms may confuse people. For example, someone with diarrhoea may attribute it to a stomach infection but it is also now a symptom of COVID. Some new COVID-19 symptoms have been noticed. Sometimes just one of these symptoms is exhibited –
+        </p>
+        <ul class="ml-5">
+            <li class="mb-2">Fever</li>
+            <li class="mb-2">Cough</li>
+            <li class="mb-2">Headache</li>
+            <li class="mb-2">Fatigue</li>
+            <li class="mb-2">Breathing difficulties</li>
+            <li class="mb-2">Loss of smell and taste</li>
+        </ul>
+
+        <h4 id="measures2" class="mb-4 mt-4">Safety Measures</h4>
+        <p>
+          The new double-mutated coronavirus too spreads through droplets from infected persons or through contact with contaminated surfaces. That is why the same precautions as before will help you now –
+<ul class="ml-5">
+<li class="mb-2">Since this virus spreads through contact and is very contagious, you should only go out when necessary. Stay home at least for the next four weeks which are very critical.</li>
+<li class="mb-2">People who have to go out for work need to wear a double mask- N95 mask and a surgical mask over it. Stay masked the whole time you are outside. If the double mask seems too suffocating, wear the N95 masks and a face shield. </li>
+<li class="mb-2">   If you are travelling by cab, turn the AC off and wind the windows down to allow air circulation. The driver must wear a mask. </li>
+<li class="mb-2">Use the lift only when you have to, like when you have to reach the top floor of a multi-rise or you are physically not in a state to take the stairs. Lifts can easily spread COVID if an infected person uses them. So, wear a mask inside the lift and do not talk to anyone else sharing the lift with you. </li>
+<li class="mb-2">Wear a double mask even if you are going out to your neighbourhood grocery store.</li>
+<li class="mb-2">Sanitize your hands when you touch a high-contact surface or any object outside your home.</li>
+<li class="mb-2">Wash your clothes and disinfect anything you were wearing/carrying when you went out. </li>
+<li class="mb-2">Go out only when necessary. </li>
+<li class="mb-2">Educate children because the new COVID-19 strain infects children. </li>
+<li class="mb-2">Get vaccinated as soon as you can. The COVID vaccine reduces the chances of getting infected and even if you do, the infection will not be serious.</li>
+<li class="mb-2">If you notice anyone in your family or yourself showing the symptoms of COVID-19, practise home isolation and book a COVID test right away. Contact your doctor even before the reports arrive. Follow the COVID-19 protocol at all times. </li>
+</ul>
+        </p>
+      </article>
+
+      <article class="container p-2" >
+        <h3 class="text-center mb-5">Gallery</h3>
+        <div id="grid">
+          <img src="assets/doctors.jpg" alt="">
+          <img src="assets/21.jpg" alt="">
+          <img src="assets/20.jpg" alt="">
+          <img src="assets/18.jpg" alt="">
+          <img src="./assets/9.jfif" alt="">
+          <img src="assets/16.jpg" alt="">
+          <img src="assets/15.jpg" alt="">
+          <img src="assets/14.jpg" alt="">
+          <img src="assets/19.jpg" alt="">
+          <img src="./assets/8.jfif" alt="">
+
+        </div>
+      </article>
+
+      <!----------------End About 2nd wave-------------->
+
+
+    </main>
+
+    <script src="./assets/jquery-3.5.1.min.js"></script>
+    <script src="./assets/bootstrap.bundle.js"></script>
+    <script
+      type="text/javascript"
+      src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+    <script src="main.js"></script>
+  </body>
+</html>
+
